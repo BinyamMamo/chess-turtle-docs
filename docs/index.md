@@ -28,7 +28,7 @@ python turtle_chessboard.py
 
 ## Screenshots
 
-![Chess Board Example](/img/chess_board_example.png)
+![Chess Board Example](./img/chess_board_example.png)
 
 ## Requirements
 

@@ -148,4 +148,4 @@ When a theme is selected, the application:
 2. Redraws the entire board using the new colors
 3. Updates the UI to highlight the currently selected theme
 
-For more details on the implementation, see the [`change_theme()`](../../reference/chess_board_drawer/#change_theme) function in the API reference.
+For more details on the implementation, see the [`change_theme()`](../reference/chess_board_drawer.md#change_theme) function in the API reference.

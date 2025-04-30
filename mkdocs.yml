@@ -87,11 +87,6 @@ plugins:
             show_signature_annotations: true
             show_class_members: true
   - autorefs
-  # Add the git revision date plugin with fallback option
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-      enable_creation_date: true
-      type: date
 
 extra:
   social:
@@ -102,7 +97,7 @@ extra:
 nav:
   - Home: index.md
   - API Reference:
-    - Chess Board Drawer: reference/chess_board_drawer.md
+    - Chess Board Drawer: reference/turtle_chessboard.md
   - User Guide:
     - Getting Started: user_guide/getting_started.md
     - Features: user_guide/features.md

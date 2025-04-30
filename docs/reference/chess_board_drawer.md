@@ -6,28 +6,28 @@ This page contains the automatically generated API reference for the Chess Board
 
 The `chess_board_drawer` module provides a complete interactive application for creating and customizing chess boards using Python's Turtle graphics.
 
-[:octicons-file-code-24: Source Code](https://github.com/your-username/chess-board-docs/blob/main/chess_board_drawer.py)
+[:octicons-file-code-24: Source Code](https://github.com/your-username/chess-board-docs/blob/main/turtle_chessboard.py)
 
 ## Core Drawing Functions
 
 These functions handle the visual rendering of the chess board and UI elements.
 
-::: chess_board_drawer.draw_square
+::: turtle_chessboard.draw_square
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.draw_board
+::: turtle_chessboard.draw_board
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.draw_button
+::: turtle_chessboard.draw_button
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.draw_ui_elements
+::: turtle_chessboard.draw_ui_elements
     options:
       show_root_heading: true
       show_source: true
@@ -36,27 +36,27 @@ These functions handle the visual rendering of the chess board and UI elements.
 
 These functions process user interactions with the application.
 
-::: chess_board_drawer.handle_click
+::: turtle_chessboard.handle_click
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.check_theme_button_click
+::: turtle_chessboard.check_theme_button_click
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.check_size_button_click
+::: turtle_chessboard.check_size_button_click
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.check_animation_button_click
+::: turtle_chessboard.check_animation_button_click
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.check_play_button_click
+::: turtle_chessboard.check_play_button_click
     options:
       show_root_heading: true
       show_source: true
@@ -65,22 +65,22 @@ These functions process user interactions with the application.
 
 These functions handle the application's state changes.
 
-::: chess_board_drawer.change_theme
+::: turtle_chessboard.change_theme
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.change_board_size
+::: turtle_chessboard.change_board_size
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.toggle_animation
+::: turtle_chessboard.toggle_animation
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.play_game
+::: turtle_chessboard.play_game
     options:
       show_root_heading: true
       show_source: true
@@ -89,12 +89,12 @@ These functions handle the application's state changes.
 
 These functions manage the application lifecycle.
 
-::: chess_board_drawer.main
+::: turtle_chessboard.main
     options:
       show_root_heading: true
       show_source: true
 
-::: chess_board_drawer.handle_close
+::: turtle_chessboard.handle_close
     options:
       show_root_heading: true
       show_source: true

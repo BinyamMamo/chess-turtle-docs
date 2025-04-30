@@ -5,7 +5,7 @@ This guide will help you get started with the Chess Board Drawer application.
 ## Installation
 
 1. Make sure you have Python 3.6 or newer installed
-2. Download the chess_board_drawer.py file
+2. Download the turtle_chessboard.py file
 3. Ensure you have the Tkinter library installed (included with most Python installations)
 
 ## Running the Application
@@ -13,7 +13,7 @@ This guide will help you get started with the Chess Board Drawer application.
 Simply run the Python script:
 
 ```bash
-python chess_board_drawer.py
+python turtle_chessboard.py
 ```
 
 The application will open in a new window showing a chess board with UI controls at the bottom.

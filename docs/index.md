@@ -23,7 +23,7 @@ The Chess Board Drawer is a Python application that:
 
 ```python
 # Run the chess board drawer
-python chess_board_drawer.py
+python turtle_chessboard.py
 ```
 
 ## Screenshots

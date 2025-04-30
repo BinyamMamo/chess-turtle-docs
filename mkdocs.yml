@@ -1,0 +1,112 @@
+site_name: Chess Board Drawer Documentation
+site_description: Interactive chess board visualization tool built with Python Turtle
+site_author: Binyam Mamo
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+# Repository
+repo_name: BinyamMamo/chess-turtle-docs
+repo_url: https://github.com/BinyamMamo/chess-turtle-docs
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [..]  # Path to your Python code directory (one level up)
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_category_heading: true
+            show_bases: true
+            heading_level: 2
+            merge_init_into_class: true
+            docstring_section_style: table
+            show_docstring_attributes: true
+            show_docstring_examples: true
+            show_docstring_other_parameters: true
+            show_docstring_parameters: true
+            show_docstring_raises: true
+            show_docstring_returns: true
+            show_docstring_type: true
+            show_signature: true
+            show_signature_annotations: true
+            show_class_members: true
+  - autorefs
+  # Add the git revision date plugin with fallback option
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      enable_creation_date: true
+      type: date
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/BinyamMamo
+  generator: false
+
+nav:
+  - Home: index.md
+  - API Reference:
+    - Chess Board Drawer: reference/chess_board_drawer.md
+  - User Guide:
+    - Getting Started: user_guide/getting_started.md
+    - Features: user_guide/features.md
+    - Themes: user_guide/themes.md
+  - About:
+    - Release Notes: about/release_notes.md
+    - License: about/license.md

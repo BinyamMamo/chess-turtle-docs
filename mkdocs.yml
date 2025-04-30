@@ -31,6 +31,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.indexes
   icon:
     repo: fontawesome/brands/github
 
@@ -94,14 +95,18 @@ extra:
       link: https://github.com/BinyamMamo
   generator: false
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - API Reference:
-    - Chess Board Drawer: reference/turtle_chessboard.md
+      - Overview: reference/index.md
+      - Chess Board Drawer: reference/turtle_chessboard.md
   - User Guide:
-    - Getting Started: user_guide/getting_started.md
-    - Features: user_guide/features.md
-    - Themes: user_guide/themes.md
+      - Getting Started: user_guide/getting_started.md
+      - Features: user_guide/features.md
+      - Themes: user_guide/themes.md
   - About:
-    - Release Notes: about/release_notes.md
-    - License: about/license.md
+      - Release Notes: about/release_notes.md
+      - License: about/license.md

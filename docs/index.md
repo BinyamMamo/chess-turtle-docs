@@ -1,37 +1,28 @@
-# Chess Board Drawer Documentation
+# API Reference
 
-Welcome to the Chess Board Drawer documentation! This application allows you to create and customize chess boards using Python's Turtle graphics library.
+This section contains the API documentation for the Chess Board Drawer application.
 
-## Overview
+## Module Structure
 
-The Chess Board Drawer is a Python application that:
+The `chess_board_drawer` module contains the following main components:
 
-- Visualizes chess boards with customizable sizes (4×4 to 16×16)
-- Offers multiple color themes
-- Includes animation toggle
-- Features a clean UI with intuitive controls
-- Connects to a chess game module
+- **Drawing Functions**: Core functions for rendering the chess board and UI elements
+- **Event Handlers**: Functions that process user interactions
+- **State Management**: Functions that modify the application state
+- **Application Control**: Main function and program flow control
 
-## Features
+## Function Index
 
-- **Interactive Board Customization**: Change board size and color theme in real time
-- **Multiple Color Themes**: Classic, Vintage, Purple, Gray, Blue, Red
-- **Animation Control**: Toggle animation effects on or off
-- **Chess Game Integration**: Launch a full chess game with your selected theme
+| Function | Description |
+|----------|-------------|
+| `draw_square()` | Draw a square on the canvas |
+| `draw_board()` | Create a complete chess board |
+| `draw_button()` | Draw a UI button with text |
+| `draw_ui_elements()` | Create all UI controls |
+| `handle_click()` | Process mouse clicks |
+| `change_theme()` | Switch the board color theme |
+| `change_board_size()` | Adjust the board dimensions |
+| `toggle_animation()` | Turn animation on/off |
+| `main()` | Application entry point |
 
-## Quick Start
-
-```python
-# Run the chess board drawer
-python turtle_chessboard.py
-```
-
-## Screenshots
-
-![Chess Board Example](/img/chess_board_example.png)
-
-## Requirements
-
-- Python 3.6+
-- Turtle graphics module (included in standard Python installation)
-- Tkinter (for the chess game component)
+For detailed documentation of each function, see the [Chess Board Drawer](chess_board_drawer.md) page.
